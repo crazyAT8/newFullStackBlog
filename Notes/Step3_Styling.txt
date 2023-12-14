@@ -1,0 +1,37 @@
+Styling with Bootstrap [11:10]
+
+[12:38]
+To be able and go through each one of our articles 
+    if we add <% %>
+        we can still add code btw the percent signs 
+        without the = equal sign 
+            it just won't be outputted to the page
+
+        <% articles.forEach(article => { %>
+            <div class="card mt-4">
+                <%= article.title %>
+            </div>
+        <% }) %>
+
+        this loops over all of our articles
+            'Test Article'
+                as seen on the screen 
+                is from the server.js file
+
+Test by adding another article to the articles class 
+    called test article 2
+
+    const articles = [{
+        title: 'Test Article',
+        createdAt: Date.now(),
+        description: 'Test description'
+    },
+    {
+        title: 'Test Article 2',
+        createdAt: Date.now(),
+        description: 'Test description 2'
+    }]
+
+    you should see see it in your browser
+
+    But we need to add more then the title

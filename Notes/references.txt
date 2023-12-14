@@ -1,0 +1,35 @@
+How to Build a Markdown Blog Using Node.js, Express, and MongoDB
+URL: https://www.youtube.com/watch?v=1NrHkjlWVhM
+
+Review:
+
+- Express
+
+In the world of programming and coding, "Express" refers to Express.js, 
+	which is a popular web application framework for Node.js. 
+It is used for building web applications and APIs. 
+Express is known for its simplicity, flexibility, and scalability, 
+	allowing developers to quickly create robust server-side applications. 
+It provides a thin layer of fundamental web application features, 
+	without obscuring Node.js features, 
+		and it has a wide range of plugins and extensions for extended functionality.
+
+- Markdown 
+
+Markdown is a lightweight markup language with plain-text formatting syntax, 
+    widely used in the blogging and coding communities. 
+It's designed to be easy to write and read in its raw form, 
+    making it an efficient way to write content for the web without needing to know HTML.
+
+Here's why Markdown is popular:
+
+1. Simplicity: Its syntax is straightforward, making it easy for anyone to learn and use, even those without programming experience.
+2. Readability: Markdown documents are readable as plain text but can be converted into HTML or other formats.
+3. Flexibility: It's compatible with many blogging and content management systems, 
+                    and it's often used for README files on GitHub and other development platforms.
+4. Control: Markdown allows you to control the formatting of your text without the complexity of HTML tags.
+
+Common elements in Markdown include headers, lists, emphasis (like bold and italics), links, and code blocks. 
+    For instance, to create a header, you use # before your header text. 
+        For a list, you can use asterisks or numbers. 
+            The simplicity and effectiveness of Markdown make it a favorite among bloggers, developers, and content creators.
