@@ -1,0 +1,12 @@
+[16:00] - Description
+
+The small summary below the date 
+    in the list of all the blog articles 
+
+(index)
+- just below the article created div 
+        <div class="card-text mb-2"><%= article.description %></div>
+- refresh the blog page and you will see 
+    'Test description' below the date of Test Article 
+        and 'Test description 2' below the date of Test Article 2
+            basically  the description in app.get server.js

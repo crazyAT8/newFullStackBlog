@@ -1,0 +1,6 @@
+[16:40] - New Article Route
+
+Need to create functionality for the
+    'New Article' green button
+        need it to actually create the articles with dates and descriptions
+        what is there now are place holders

@@ -1,6 +1,6 @@
 Styling with Bootstrap [11:10]
 
-[12:38]
+[12:38] - Articles
 To be able and go through each one of our articles 
     if we add <% %>
         we can still add code btw the percent signs 
@@ -17,6 +17,8 @@ To be able and go through each one of our articles
             'Test Article'
                 as seen on the screen 
                 is from the server.js file
+
+[13:55] - Card Body
 
 Test by adding another article to the articles class 
     called test article 2
