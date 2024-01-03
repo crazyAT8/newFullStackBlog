@@ -1,0 +1,31 @@
+[1:43] - setup server
+
+
+1) Setup Server
+
+type: 'npm init -y'
+    in our console
+        gives us a boiler plate package.json
+
+- add dependencies
+type: 'npm i express mongoose ejs'
+    express is for our server
+    mongoose is for our database
+    ejs is for our different view
+        get a 
+            node_modules folder
+            package-lock.json
+
+- install dev dependencies
+type: 'npm i --save-dev nodemon'
+    nodemon allows us to automatically refresh our page everytime
+    we make a change to our code 
+        add this '"devStart": "nodemon server.js"'
+        to the "scripts curly braces in the packages.json file
+
+- create a server.js file 
+type: 'npm run devStart'
+
+
+
+    

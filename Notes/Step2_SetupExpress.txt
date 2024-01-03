@@ -1,0 +1,14 @@
+[2:57] - Setup Express
+
+- code the server 
+    + variable for express 
+    + app variable 
+    + app listens to a port number
+
+            const express = required('express');
+            const app = express();
+
+            app.listen(5000);
+
+        unfortunately you will get an 'unfound'
+            bc the route isn't setup yet 

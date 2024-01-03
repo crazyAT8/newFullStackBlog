@@ -1,0 +1,43 @@
+[6:39] - Export Articles Router
+
+- articles.js 
+
+    first setup express with a variable
+        then
+    create a router variable
+        that equals express.Router()
+        Router called as a function 
+            this is going to give us a router we can use 
+            to create views like the app.get .render 
+                attach a get function to the router variable 
+                and pass in a slash 
+
+                    const express = require('express');
+                    const router = express.Router();
+
+                    router.get('/')
+
+                the main thing about this router is 
+                    that we have to tell our application to 
+                        use this router 
+                so we need to export this router
+                    from our articles 
+                        so get rid of the router.get and add 
+                            module.exports = router
+
+                    const express = require('express');
+                    const router = express.Router();
+
+                    module.exports = router
+
+                and now where ever we require this file 
+                we can actually read in this router 
+
+- server.js 
+    we can just require our router 
+
+        const articleRouter = require('./routes/articles)
+
+    now we just need to tell our app to use that router 
+
+        app.use(articleRouter)

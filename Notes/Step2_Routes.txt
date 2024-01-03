@@ -1,6 +1,0 @@
-2) Routes [5:38]
-
-- create a folder called routes
-    create a file called articles.js 
-        this is where all of the routes will go 
-        that directly relate to our article 

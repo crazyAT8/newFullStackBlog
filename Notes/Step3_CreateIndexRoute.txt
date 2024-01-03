@@ -1,0 +1,48 @@
+[3:33] - Create Index Route 
+
+    + set up route 
+        attach app variable to a GET function
+
+        app.get('/', (req, res) => {
+            res.send('Hello World')
+        })
+
+        the slash is just our index route or main route
+        and take a request as well as a response
+        and for now we will
+            send to the user with our response dot send
+            the text 'Hello World'
+
+    - refresh the screen and we can see the message 'Hello World'
+
+[4:07]        
+    + Need to get it so that it sends HTML to the screen
+        bc just sending text isn't that useful
+            Need to set out 'view enginge'
+
+            app.set('view engine', 'ejs')
+
+                we want it set to ejs bc we are going to be writing all of our views with ejs
+                and our view engine is going to convert that to HTML
+    
+    + Create a folder 'Views'
+        with a file entitled 'index.ejs'
+            where you setup a boiler plate HTML page 
+            and write some test text inside the body tags 
+
+    - server.js 
+        in the app.get function 
+        instead of .send 
+            we want to call render 
+                this is going to access our views folder 
+                and we pass it the path to the view we want 
+                which in our case is just called 'index'
+
+                app.get('/', (req, res) => {
+                    res.render('index')
+                })
+
+    - save and refresh the page 
+        you should see the test text in the Local browser
+
+
