@@ -1,0 +1,30 @@
+[7:40] - Create Articles Router 
+
+- Server.js 
+
+    but we also need to tell our article router
+        where it's going to be based on
+            we do this by providing a file path in the parameter
+
+        app.use('/articles', articleRouter)
+
+        now whats going to happen is that 
+        every single route we create in this article router 
+            is going to be added to the end of the slash articles
+
+- articles.js 
+
+    router.get('/', (req, res) => {
+        res.send('In articles')
+    })
+
+    you may think that by using our slash route 
+        it's going to render in articles but 
+        only the HTML we are sending from the server is appearing
+
+    need to add a /articles at the end of URL
+        and you will see the 'In articles'
+    
+    so everything in articles.js 
+        will be relative to that path
+

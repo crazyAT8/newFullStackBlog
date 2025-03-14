@@ -30,7 +30,7 @@
 
                     module.exports = router
 
-                and now where ever we require this file 
+                and now wherever we require this file 
                 we can actually read in this router 
 
 - server.js 
@@ -38,6 +38,11 @@
 
         const articleRouter = require('./routes/articles)
 
+                ./ is a relative path
+
     now we just need to tell our app to use that router 
 
         app.use(articleRouter)
+
+
+

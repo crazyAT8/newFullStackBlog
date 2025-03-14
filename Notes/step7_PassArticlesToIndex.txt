@@ -1,0 +1,6 @@
+[9:02] -
+
+First we want to get our Main index route finished out 
+
+- server.js 
+
