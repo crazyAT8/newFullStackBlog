@@ -11,8 +11,10 @@ const app = express();
 
 // Database connection
 mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true, useUnifiedTopology: true
-}).catch(err => console.error('MongoDB connection error:', err));
+  useNewUrlParser: true, 
+  useUnifiedTopology: true
+})
+  .catch(err => console.error('MongoDB connection error:', err));
 
 // How we convert to HTML
 // app.set('view engine', 'ejs')
@@ -56,7 +58,7 @@ app.get('/', async (req, res) => {
 //     res.send('Hello World')
 // })
 
-app.use('/articles', articleRouter);
+app.use('/article', articleRouter);
 
 // Start server
 const PORT = process.env.PORT || 5000;
